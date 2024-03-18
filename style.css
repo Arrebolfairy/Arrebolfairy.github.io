@@ -20,6 +20,26 @@ body {
     margin: 0;
 }
 
+.logoNav {
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logoNav ul li {
+    float: left;
+    height: 80px;
+    padding: 0 10px;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.qaqq{
+    left: 0;
+    bottom: 0;
+}
+
+
 .music-container {
     background-color: #fff;
     border-radius: 15px;
