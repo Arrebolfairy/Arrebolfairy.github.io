@@ -10,7 +10,7 @@ const title = document.getElementById("title")
 const musicCover = document.getElementById("music-cover")
 
 // 音乐信息
-const songs = ["身骑白马","离人","为你我受冷风吹","Mojito"]
+const songs = ["身骑白马","玫瑰花的葬礼","为你我受冷风吹","词不达意","Mojito","我怀念的","行走的鱼","疑心病"]
 // 默认从第一首开始
 let songIndex = 0;
 // 将歌曲细节加载到DOM
