@@ -5,11 +5,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>动漫放映</title>
+  <title>动漫回忆童年o(*￣▽￣*)ブ</title>
   <link rel="stylesheet" href="./css/base.css">
   <script src="./js/jq.js"></script>
   <link rel="stylesheet" href="./css/index1.css">
-
+  <style>
+    .omo{ 
+            width: 100% !important;
+            height: 100%;
+            /*生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。可以根据实际情况修改*/
+            position: absolute;
+            /*这里我试了一下好像只要是矩形的四个角的的点都行,也就是说right:0;bottom:0;也可以*/
+            left: 40vb;
+            top: 15vb;
+            /*将视频放在元素的堆叠顺序最底层，以防覆盖其他东西*/
+            z-index: -9999;
+            /*被替换的内容正好填充元素的内容框。整个对象将完全填充此框。如果对象的宽高比与内容框不相匹配，那么该对象将被拉伸以适应内容框。*/
+    }
+  </style>
 </head>
 
 <body>
@@ -72,10 +85,10 @@
             <!-- 栏目 -->
             <ul class="header-nav">
               <li><a href="index.html">主页</a></li>
-              <li class="active" ><a href="index5.html">回忆童年的动漫</a></li>
               <li><a href="index4.html">音乐馆(∩_∩)</a></li>
               <li><a href="index2.html">落花雨=w=</a></li>
               <li><a href="index3.html">碎花雨=w=</a></li>
+              <li class="active" ><a href="index5.html">回忆童年的动漫</a></li>
             </ul>
             <!-- 开关灯 -->
             <span class="kaig-bottm">
@@ -109,12 +122,12 @@
 
         <!-- 标题 -->
         <div class="co-right ">
-          <span class="titleBox-tag">HI MY NEW FRIEND!</span>
+          <span class="titleBox-tag">To use English inducle myself</span>
           <h1>
-            Hello<br>
-            I`m wwww
+            I'd rather share one lifetime with you,
+            than face all the ages of this world alone.<br>
           </h1>
-          <a class="buttom navbtn" href="#next-one">了解一下
+          <a class="buttom navbtn" href="#next-one">VCR below---→
           </a>
         </div>
       </div>
@@ -133,7 +146,7 @@
           <div class="mecar-title">
             <div class="me-image">
               <span class="status">
-                <i>林里谜案</i>
+                <i>gsqgsqgsq</i>
               </span>
               <img src="./img/www.png" alt="">
             </div>
@@ -157,18 +170,8 @@
       </div>
       <!-- 右边 -->
         <!-- 我的故事 -->
-        <div class="content-li li2">
-          <h3>
-            <span>我的故事</span>
-            <div class="borderbotm"></div>
-            <span>01</span>
-          </h3>
-          <div class="carbox li2-box">
-            <blockquote>
-              I hope I could keep advancing and let my life shine as a precious stone.and let my life shine as a
-              precious stone.
-            </blockquote>
-          </div>
+        <div class="omo">
+          <video src="img/mom.mp4" autoplay="autoplay" controls="controls" loop></video>
         </div>
 
 </body>
