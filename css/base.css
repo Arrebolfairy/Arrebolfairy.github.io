@@ -123,7 +123,7 @@ img {
   line-height: 70px;
   background-color: var(--headerCOlor);
   border-radius: 0% 0% 10px 10px;
-  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+  box-shadow: 0 4px 6px 0 rgb(225, 0, 255);
 }
 
 /* 下面的装饰 */
