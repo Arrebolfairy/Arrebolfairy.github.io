@@ -260,7 +260,7 @@ img {
   margin: 10px 0;
   font-size: 3.8rem;
   color: #fcfcfe;
-  text-shadow: 0 1px 10px rgb(0 0 0 / 30%);
+  text-shadow: 0 1px 10px #fd06fd;
 }
 .navigation .buttom:hover{
   transform: scale(1.1);
@@ -828,11 +828,6 @@ img {
     position:relative !important;
   }
 }
-
-
-
-
-
 
 
 
