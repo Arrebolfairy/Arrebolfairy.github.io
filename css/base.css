@@ -348,7 +348,7 @@ img {
   width: fit-content;
   min-width: 285px;
   transform: translateY(-351px);
-  height: 780px;
+  height: 400px;
   /* backgrounbad-color: var(--headerCOlor); */
   border-radius: 10px;
   text-align: center;
